@@ -1,10 +1,10 @@
 import { HeaderItem } from "@/types/menu";
 
 export const headerData: HeaderItem[] = [
-  { label: "¿Que es ORIX?", href: "/#main-banner" },
-  { label: "Como Funciona", href: "/#development" },
-  { label: "Ganancias", href: "/#work" },
-  { label: " Informacion", href: "/#portfolio" },
-  { label: "Seguridad", href: "/#upgrade" },
-  { label: "Preguntas", href: "/documentation#version" },
+  { label: "¿Que es ORIX?", href: "/#queEs" },
+  { label: "Como Funciona", href: "/#comoFunciona" },
+  { label: "Modelo de Exito", href: "/#modeloExito" },
+  { label: "Ganancias", href: "/#ganancias" },
+  { label: "Seguridad", href: "/#seguridad" },
+  // { label: "Preguntas", href: "/#preguntas" },
 ];

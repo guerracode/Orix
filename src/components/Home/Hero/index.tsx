@@ -82,37 +82,13 @@ const Hero = () => {
                                 </span>
                             </p>
                         </div>
-                        <div className="flex items-center md:justify-start justify-center gap-8">
+                        {/* <div className="flex items-center md:justify-start justify-center gap-8">
                             <button
                                 className="bg-primary border border-primary rounded-lg text-21 font-medium hover:bg-transparent hover:text-primary text-darkmode py-2 px-7 z-50"
                                 onClick={() => setIsBuyingOpen(true)}
                             >
                                 Quiero Empezar
                             </button>
-                        </div>
-                        {/* <div className="flex items-center md:justify-start justify-center gap-12 mt-20">
-                            <Link
-                                href="#"
-                                className="hover:scale-110 duration-300"
-                            >
-                                <Image
-                                    src="/images/hero/playstore.png"
-                                    alt="Play Store"
-                                    width={240}
-                                    height={70}
-                                />
-                            </Link>
-                            <Link
-                                href="#"
-                                className="hover:scale-110 duration-300"
-                            >
-                                <Image
-                                    src="/images/hero/applestore.png"
-                                    alt="App Store"
-                                    width={240}
-                                    height={70}
-                                />
-                            </Link>
                         </div> */}
                     </motion.div>
                     <motion.div

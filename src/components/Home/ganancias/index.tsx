@@ -1,7 +1,6 @@
-
 const Ganancias = () => {
     return (
-        <section className="md:py-40 py-20" id="upgrade">
+        <section className="md:py-40 py-20" id="ganancias">
             <div className="container px-4">
                 <div className="grid lg:grid-cols-2 sm:gap-10 gap-10 items-center">
                     <div>
@@ -13,33 +12,17 @@ const Ganancias = () => {
                             rendimiento
                         </h2>
                         <p className="text-muted/60 text-18 mb-7">
-                            Maximizamos tus ganancias optimizando los costos.
-                            Trabajamos arduamente para ofrecerte las comisiones
-                            más competitivas del sector, asegurando que el foco
-                            principal sea siempre el crecimiento de tu capital,
-                            tomando en cuenta siempre la proteccion del mismo.
-                            Tu éxito financiero es nuestra verdadera métrica de
-                            valor.
+                            Nuestro compromiso es el crecimiento de tu
+                            patrimonio bajo un esquema de beneficio compartido,
+                            transparente y justo. Dependiendo de tu nivel de
+                            inversión, optimizamos el profit split para asegurar
+                            que conserves la mayor parte de los rendimientos
+                            generados. Desde el acceso Bronce hasta la
+                            exclusividad del nivel Elite, garantizamos que el
+                            foco principal sea siempre maximizar el retorno de
+                            tu capital con los estándares más altos de
+                            protección.
                         </p>
-                        {/* <div className="grid sm:grid-cols-2 lg:w-70% text-nowrap sm:gap-10 gap-5">
-                            {upgradeData.map((item, index) => (
-                                <div key={index} className="flex gap-5">
-                                    <div>
-                                        <Icon
-                                            icon="la:check-circle-solid"
-                                            width="24"
-                                            height="24"
-                                            className="text-white group-hover:text-primary"
-                                        />
-                                    </div>
-                                    <div>
-                                        <h4 className="text-18 text-muted/60">
-                                            {item.title}
-                                        </h4>
-                                    </div>
-                                </div>
-                            ))}
-                        </div> */}
                     </div>
                     <div>
                         <div className="">
@@ -72,7 +55,18 @@ const Ganancias = () => {
                                 Inversión más de $100,000 dls. <br />
                             </p>
                             <p className="text-muted/60 text-16 mb-7">
-                                A negociar directamente con un agente de Orix.
+                                Conservas el 70% de las ganancias netas.
+                            </p>
+                        </div>
+                        <div className="">
+                            <h4 className="text-white sm:text-20 text-18  font-medium mb-2">
+                                ORIX ELITE
+                            </h4>
+                            <p className="text-muted/60 text-18">
+                                Inversión más de $1,000,000 dls. <br />
+                            </p>
+                            <p className="text-muted/60 text-16 mb-7">
+                                Conservas el 80% de las ganancias netas.
                             </p>
                         </div>
                     </div>

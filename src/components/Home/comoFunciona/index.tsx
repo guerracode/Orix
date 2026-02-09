@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const ComoFunciona = () => {
 
     return (
-        <section className="md:pt-40 pt-9" id="development">
+        <section className="md:pt-40 pt-9" id="comoFunciona">
             <div className="container lg:px-16 px-4">
                 <div className="text-center">
                     <motion.div
@@ -26,8 +26,8 @@ const ComoFunciona = () => {
                         initial={{ scale: 0.8, opacity: 0 }}
                         transition={{ duration: 0.6 }}
                     >
-                        <div className="md:block hidden relative">
-                            <p className="sm:text-20 text-18 text-white">
+                        <div className="block relative">
+                            <p className="text-18 text-white">
                                 Gracias a la optimización de IA, 13 indicadores
                                 personalizados y 7 mecanismos de protección, el
                                 bot selecciona únicamente los puntos de entrada
@@ -41,8 +41,8 @@ const ComoFunciona = () => {
                                 minutos).
                             </p>
                         </div>
-                        <div className="md:block hidden relative mt-5">
-                            <p className="sm:text-20 text-18 text-white">
+                        <div className="block relative mt-5">
+                            <p className="text-18 text-white">
                                 <strong className="text-primary">Certeza </strong>
                                 Orix, al ser un algoritmo muy avanzado, solo
                                 arriesga dinero cuando tiene certeza de que va a

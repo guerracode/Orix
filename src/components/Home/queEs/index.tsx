@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
 
-const Que_es = () => {
+const QueEs = () => {
     const ref = useRef(null);
     const inView = useInView(ref);
 
@@ -20,14 +20,14 @@ const Que_es = () => {
     };
 
     return (
-        <section className="md:pt-28" id="work">
-            <div className="container px-4 mx-auto lg:max-w-(--breakpoint-xl) px-4">
+        <section className="md:pt-28" id="queEs">
+            <div className="container px-4 mx-auto lg:max-w-(--breakpoint-xl)">
                 <div ref={ref} className="grid grid-cols-12 items-center">
                     <motion.div
                         {...bottomAnimation}
                         className="lg:col-span-7 col-span-12"
                     >
-                        <h2 className="sm:text-40 text-30 text-white lg:w-full md:w-70% font-medium">
+                        <h2 className="text-30 text-white lg:w-full md:w-70% font-medium mt-8">
                             ¿QUÉ ES ORIX?
                         </h2>
                         <p className="sm:text-24 text-18 text-white">
@@ -69,4 +69,4 @@ const Que_es = () => {
     );
 };
 
-export default Que_es;
+export default QueEs;
