@@ -20,7 +20,7 @@ export default function Home() {
       <Platform />
       <ModeloExito />
       <Ganancias />
-      <Perks />
+      {/* <Perks /> */}
     </main>
   )
 }
