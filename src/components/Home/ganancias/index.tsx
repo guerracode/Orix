@@ -1,6 +1,3 @@
-import { upgradeData } from '@/app/api/data';
-import Image from 'next/image';
-import { Icon } from '@iconify/react';
 
 const Ganancias = () => {
     return (

@@ -19,21 +19,6 @@ const Que_es = () => {
         transition: { duration: 0.6, delay: 0.4 },
     };
 
-    const services = [
-        {
-            icon: '/images/icons/icon-consulting.svg',
-            text: 'Blockchain Consulting',
-        },
-        {
-            icon: '/images/icons/icon-blockchain.svg',
-            text: 'Blockchain Solutions',
-        },
-        {
-            icon: '/images/icons/icon-Services.svg',
-            text: 'Custom Development',
-        },
-    ];
-
     return (
         <section className="md:pt-28" id="work">
             <div className="container px-4 mx-auto lg:max-w-(--breakpoint-xl) px-4">

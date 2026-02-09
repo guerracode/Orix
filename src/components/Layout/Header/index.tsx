@@ -1,27 +1,24 @@
 'use client'
 import Link from 'next/link'
-import { usePathname } from 'next/navigation'
+// import { usePathname } from 'next/navigation'
 import { useEffect, useRef, useState } from 'react'
 import { headerData } from '../Header/Navigation/menuData'
 import Logo from './Logo'
-import Image from 'next/image'
+// import Image from 'next/image'
 import HeaderLink from '../Header/Navigation/HeaderLink'
 import MobileHeaderLink from '../Header/Navigation/MobileHeaderLink'
-import Signin from '@/components/Auth/SignIn'
-import SignUp from '@/components/Auth/SignUp'
-import { useTheme } from 'next-themes'
-import { Icon } from '@iconify/react/dist/iconify.js'
+// import { useTheme } from 'next-themes'
 
 const Header: React.FC = () => {
-  const pathUrl = usePathname()
-  const { theme, setTheme } = useTheme()
+  // const pathUrl = usePathname()
+  // const { theme, setTheme } = useTheme()
 
   const [navbarOpen, setNavbarOpen] = useState(false)
   const [sticky, setSticky] = useState(false)
   const [isSignInOpen, setIsSignInOpen] = useState(false)
   const [isSignUpOpen, setIsSignUpOpen] = useState(false)
 
-  const navbarRef = useRef<HTMLDivElement>(null)
+  // const navbarRef = useRef<HTMLDivElement>(null)
   const signInRef = useRef<HTMLDivElement>(null)
   const signUpRef = useRef<HTMLDivElement>(null)
   const mobileMenuRef = useRef<HTMLDivElement>(null)
