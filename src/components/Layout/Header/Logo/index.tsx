@@ -5,7 +5,7 @@ const Logo: React.FC = () => {
   return (
     <Link href="/">
       <Image
-        src="/images/logo/OrixLogo.png"
+        src="https://orix-bot.s3.us-east-2.amazonaws.com/OrixLogo.webp"
         alt="logo"
         width={160}
         height={50}

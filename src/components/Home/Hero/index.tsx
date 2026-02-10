@@ -97,7 +97,7 @@ const Hero = () => {
                     >
                         <div className="ml-20 -mr-64">
                             <Image
-                                src="/images/hero/RobotOrixHDbg.png"
+                                src="https://orix-bot.s3.us-east-2.amazonaws.com/RobotOrixHDbg.webp"
                                 alt="Banner"
                                 width={500}
                                 height={500}

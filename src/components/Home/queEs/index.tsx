@@ -55,7 +55,7 @@ const QueEs = () => {
                     >
                         <div className="2xl:-mr-40 mt-9 flex justify-center">
                             <Image
-                                src="/images/que_es/MyFxbookBarsGold.png"
+                                src="https://orix-bot.s3.us-east-2.amazonaws.com/MyFxbookBarsGold.png"
                                 alt="image"
                                 width={600}
                                 height={425}

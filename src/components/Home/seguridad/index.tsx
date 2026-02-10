@@ -34,13 +34,13 @@ const Seguridad = () => {
                         <div className="text-center flex items-center justify-between flex-col">
                             <div className="bg-white backdrop-blur-xs p-4 rounded-full w-fit">
                                 <Image
-                                    src="/images/seguridad/StartraderLogo.png"
+                                    src="https://orix-bot.s3.us-east-2.amazonaws.com/StartraderLogo.png"
                                     alt="Startrader Logo"
                                     width={150}
                                     height={150}
                                 />
                             </div>
-                            <p className="text-white text-16 pt-4">
+                            <p className="text-white text-16 pt-4 ">
                                 Startrader es un bróker global de alto
                                 crecimiento que ofrece tecnología avanzada y
                                 soluciones de inversión seguras bajo múltiples
@@ -58,7 +58,7 @@ const Seguridad = () => {
                         <div className="text-center flex items-center justify-between flex-col">
                             <div className="bg-white backdrop-blur-xs p-4 rounded-full w-fit">
                                 <Image
-                                    src="/images/seguridad/VantageLogo.jpg"
+                                    src="https://orix-bot.s3.us-east-2.amazonaws.com/VantageLogo.jpg"
                                     alt="Vantage Logo"
                                     width={150}
                                     height={150}
@@ -83,7 +83,7 @@ const Seguridad = () => {
                         <div className="text-center flex items-center justify-between flex-col">
                             <div className="bg-white backdrop-blur-xs p-4 rounded-full w-fit">
                                 <Image
-                                    src="/images/seguridad/VTMarketsLogo.jpg"
+                                    src="https://orix-bot.s3.us-east-2.amazonaws.com/VTMarketsLogo.jpg"
                                     alt="Vantage Logo"
                                     width={150}
                                     height={150}

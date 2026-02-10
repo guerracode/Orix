@@ -15,7 +15,7 @@ const ModeloExito = () => {
                         className="lg:-ml-32"
                     >
                         <Image
-                            src="/images/portfolio/robotResultados.png"
+                            src="https://orix-bot.s3.us-east-2.amazonaws.com/robotResultados.webp"
                             alt="Crypto Portfolio"
                             width={780}
                             height={700}
