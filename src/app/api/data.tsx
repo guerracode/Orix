@@ -3,7 +3,7 @@
 export const footerlabels: { label: string; herf: string }[] = [
   { label: "Brokers", herf: "#" },
   { label: "Registro", herf: "#" },
-  { label: "Deposito", herf: "#" },
+  // { label: "Deposito", herf: "#" },
   // { label: "Conectar", herf: "#" },
 ];
 
