@@ -6,6 +6,7 @@ import Platform from '@/components/Home/platform'
 import ModeloExito from '@/components/Home/modeloExito'
 import Ganancias from '@/components/Home/ganancias'
 import Seguridad from '@/components/Home/seguridad'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Orix',
@@ -21,6 +22,7 @@ export default function Home() {
       <ModeloExito />
       <Ganancias />
       <Seguridad />
+      <SpeedInsights/>
     </main>
   )
 }
