@@ -101,6 +101,7 @@ const Hero = () => {
                                 alt="Banner"
                                 width={500}
                                 height={500}
+                                loading="lazy"
                             />
                         </div>
                     </motion.div>

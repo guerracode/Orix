@@ -60,6 +60,7 @@ const QueEs = () => {
                                 width={600}
                                 height={425}
                                 className="lg:w-full"
+                                loading="lazy"
                             />
                         </div>
                     </motion.div>

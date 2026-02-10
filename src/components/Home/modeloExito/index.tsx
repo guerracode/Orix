@@ -19,6 +19,7 @@ const ModeloExito = () => {
                             alt="Crypto Portfolio"
                             width={780}
                             height={700}
+                            loading="lazy"
                         />
                     </motion.div>
 

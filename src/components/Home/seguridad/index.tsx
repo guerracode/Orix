@@ -38,6 +38,7 @@ const Seguridad = () => {
                                     alt="Startrader Logo"
                                     width={150}
                                     height={150}
+                                    loading="lazy"
                                 />
                             </div>
                             <p className="text-white text-16 pt-4 ">
@@ -62,6 +63,7 @@ const Seguridad = () => {
                                     alt="Vantage Logo"
                                     width={150}
                                     height={150}
+                                    loading="lazy"
                                 />
                             </div>
                             <p className="text-white text-16 pt-4">
@@ -87,6 +89,7 @@ const Seguridad = () => {
                                     alt="Vantage Logo"
                                     width={150}
                                     height={150}
+                                    loading="lazy"
                                 />
                             </div>
                             <p className="text-white text-16 pt-4">
