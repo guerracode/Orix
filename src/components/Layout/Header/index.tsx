@@ -1,5 +1,5 @@
 'use client'
-import Link from 'next/link'
+// import Link from 'next/link'
 // import { usePathname } from 'next/navigation'
 import { useEffect, useRef, useState } from 'react'
 import { headerData } from '../Header/Navigation/menuData'
@@ -190,7 +190,7 @@ const Header: React.FC = () => {
             {headerData.map((item, index) => (
               <MobileHeaderLink key={index} item={item} />
             ))}
-            <div className='mt-4 flex flex-col gap-4 w-full'>
+            {/* <div className='mt-4 flex flex-col gap-4 w-full'>
               <Link
                 href='#'
                 className='bg-transparent border border-primary text-primary px-4 py-2 rounded-lg hover:bg-blue-600 hover:text-white'
@@ -209,7 +209,7 @@ const Header: React.FC = () => {
                 }}>
                 Sign Up
               </Link>
-            </div>
+            </div> */}
           </nav>
         </div>
       </div>
