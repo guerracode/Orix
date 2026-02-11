@@ -2,18 +2,19 @@ import { useState } from "react";
 import Link from "next/link";
 import { HeaderItem } from "../../../../types/menu";
 
-const MobileHeaderLink: React.FC<{ item: HeaderItem }> = ({ item }) => {
+const MobileHeaderLink: React.FC<{ item: HeaderItem, setNavbarOpen: (open: boolean) => void }> = ({ item, setNavbarOpen }) => {
   const [submenuOpen, setSubmenuOpen] = useState(false);
 
   const handleToggle = () => {
     setSubmenuOpen(!submenuOpen);
+    setNavbarOpen(false);
   };
 
   return (
     <div className="relative w-full">
       <Link
         href={item.href}
-        onClick={item.submenu ? handleToggle : undefined}
+        onClick={handleToggle}
         className="flex items-center justify-between w-full py-2 text-muted focus:outline-hidden"
       >
         {item.label}

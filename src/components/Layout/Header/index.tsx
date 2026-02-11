@@ -183,33 +183,14 @@ const Header: React.FC = () => {
             {/*  */}
             <button
               onClick={() => setNavbarOpen(false)}
-              className="bg-[url('/images/closed.svg')] bg-no-repeat bg-contain w-5 h-5 absolute top-0 right-0 mr-8 mt-8 dark:invert"
+              className="bg-[url('/images/closed.svg')] bg-no-repeat bg-contain w-5 h-5 absolute top-0 right-0 mr-8 mt-8"
               aria-label='Close menu Modal'></button>
           </div>
           <nav className='flex flex-col items-start p-4'>
             {headerData.map((item, index) => (
-              <MobileHeaderLink key={index} item={item} />
+              <MobileHeaderLink key={index} item={item} setNavbarOpen={setNavbarOpen} />
             ))}
-            {/* <div className='mt-4 flex flex-col gap-4 w-full'>
-              <Link
-                href='#'
-                className='bg-transparent border border-primary text-primary px-4 py-2 rounded-lg hover:bg-blue-600 hover:text-white'
-                onClick={() => {
-                  setIsSignInOpen(true)
-                  setNavbarOpen(false)
-                }}>
-                Sign In
-              </Link>
-              <Link
-                href='#'
-                className='bg-primary text-white px-4 py-2 rounded-lg hover:bg-blue-700'
-                onClick={() => {
-                  setIsSignUpOpen(true)
-                  setNavbarOpen(false)
-                }}>
-                Sign Up
-              </Link>
-            </div> */}
+
           </nav>
         </div>
       </div>

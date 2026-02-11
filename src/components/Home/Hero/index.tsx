@@ -12,6 +12,7 @@ const Hero = () => {
     const [isSelling, setIsSellingOpen] = useState(false);
     const BuyRef = useRef<HTMLDivElement>(null);
     const SellRef = useRef<HTMLDivElement>(null);
+    const [isMobile, setIsMobile] = useState(false);
 
     const handleClickOutside = useCallback(
         (event: MouseEvent) => {
@@ -32,6 +33,7 @@ const Hero = () => {
     );
 
     useEffect(() => {
+        setIsMobile(window.innerWidth < 768);
         document.addEventListener('mousedown', handleClickOutside);
         return () => {
             document.removeEventListener('mousedown', handleClickOutside);
@@ -64,8 +66,8 @@ const Hero = () => {
             <div className="container px-4">
                 <div className="grid grid-cols-12">
                     <motion.div
-                        {...leftAnimation}
                         className="lg:col-span-5 col-span-12"
+                        animate={isMobile ? undefined : { ...leftAnimation }}
                     >
                         <h1 className="font-medium lg:text-40 md:text-25 text-20 lg:text-start text-center text-white mb-8 mt-14">
                             HAZ QUE TU{' '}
@@ -75,8 +77,9 @@ const Hero = () => {
                         <div className="flex gap-6 items-center lg:justify-start justify-center mb-8 mt-10">
                             <p className="text-white sm:text-22 text-18 mb-0">
                                 Mientras descansas, nuestra tecnología sigue
-                                haciendo crecer tu dinero. Cientos de personas ya generan
-                                ingresos pasivos para construir su riqueza.{' '}
+                                haciendo crecer tu dinero. Cientos de personas
+                                ya generan ingresos pasivos para construir su
+                                riqueza.{' '}
                                 <span className="text-primary">
                                     ¿Qué te detiene a ti?
                                 </span>
@@ -92,7 +95,7 @@ const Hero = () => {
                         </div> */}
                     </motion.div>
                     <motion.div
-                        {...rightAnimation}
+                        animate={isMobile ? undefined : { ...rightAnimation }}
                         className="col-span-7 lg:block hidden"
                     >
                         <div className="ml-20 -mr-64">
@@ -106,7 +109,7 @@ const Hero = () => {
                         </div>
                     </motion.div>
                 </div>
-                <CardSlider />
+                {/* <CardSlider /> */}
             </div>
             <div className="absolute w-50 h-50 bg-linear-to-bl from-tealGreen from-50% to-charcoalGray to-60% blur-400 rounded-full -top-64 -right-14 -z-1"></div>
 
