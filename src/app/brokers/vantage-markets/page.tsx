@@ -37,11 +37,11 @@ export default function Brokers() {
                         los 20 más seguros del mundo).
                     </p>
                     <p className="text-16 mt-2 pl-4">
-                        ¿Qué significa esto? Que tu capital nunca se mezcla con
-                        el dinero operativo de la empresa. Incluso en el
-                        improbable caso de que Vantage tuviera problemas
-                        financieros, tu dinero está blindado en una bóveda
-                        ajena, listo para ser retirado por ti.
+                        <strong>¿Qué significa esto?</strong> Que tu capital
+                        nunca se mezcla con el dinero operativo de la empresa.
+                        Incluso en el improbable caso de que Vantage tuviera
+                        problemas financieros, tu dinero está blindado en una
+                        bóveda ajena, listo para ser retirado por ti.
                     </p>
                 </div>
                 <div className="mt-6">
@@ -49,17 +49,50 @@ export default function Brokers() {
                         2. Respaldo de Clase Mundial (El estándar Ferrari)
                     </h5>
                     <p className="text-16">
-                        Operamos bajo una política de estricta separación de
-                        fondos. Cuando depositas en Vantage, tu dinero se aloja
-                        directamente en un Banco de Nivel AA (clasificado entre
-                        los 20 más seguros del mundo).
+                        Vantage es patrocinador oficial de la escudería Ferrari
+                        en la Fórmula 1.
                     </p>
                     <p className="text-16 mt-2 pl-4">
-                        ¿Qué significa esto? Que tu capital nunca se mezcla con
-                        el dinero operativo de la empresa. Incluso en el
-                        improbable caso de que Vantage tuviera problemas
-                        financieros, tu dinero está blindado en una bóveda
-                        ajena, listo para ser retirado por ti.
+                        <strong>¿Por qué importa?</strong> Marcas de élite como
+                        Ferrari no asocian su imagen con cualquiera. Para lograr
+                        esta alianza, Vantage ha pasado por rigurosas auditorías
+                        financieras y legales que certifican su solvencia y
+                        transparencia. Si Ferrari confía en ellos, tú también
+                        puedes hacerlo.
+                    </p>
+                </div>
+                <div className="mt-6">
+                    <h5 className="text-white text-18 font-bold">
+                        3. Protección contra Errores (Seguro de Indemnización)
+                    </h5>
+                    <p className="text-16">
+                        Tu tranquilidad tiene un respaldo adicional. Vantage
+                        cuenta con una póliza millonaria de Indemnización
+                        Profesional.
+                    </p>
+                    <p className="text-16 mt-2 pl-4">
+                        <strong>La garantía:</strong> Este seguro protege tus
+                        fondos contra errores administrativos, fallas internas o
+                        negligencias. Es un paracaídas de seguridad que muy
+                        pocos brokers pueden costear, asegurando que tu saldo
+                        esté protegido ante imprevistos operativos.
+                    </p>
+                </div>
+                <div className="mt-6">
+                    <h5 className="text-white text-18 font-bold">
+                        4. Regulación Global (Vigilancia Estricta)
+                    </h5>
+                    <p className="text-16">
+                        Aunque operes desde México o Latinoamérica, tu cuenta
+                        está bajo el paraguas de una institución regulada en los
+                        mercados más exigentes: Reino Unido y Australia.
+                    </p>
+                    <p className="text-16 mt-2 pl-4">
+                        <strong>El beneficio:</strong> Al tener licencias
+                        globales, Vantage está obligado a cumplir con los
+                        estándares más altos de honestidad y transparencia.
+                        Arriesgar su reputación en un país significaría perder
+                        sus licencias en todo el mundo.
                     </p>
                 </div>
             </div>
