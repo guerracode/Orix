@@ -7,8 +7,8 @@ import ModeloExito from '@/components/Home/modeloExito';
 import Ganancias from '@/components/Home/ganancias';
 import Seguridad from '@/components/Home/seguridad';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from '@vercel/analytics/next';
 import { Metadata } from 'next';
-import { MotionConfig } from 'framer-motion';
 
 export const metadata: Metadata = {
     title: 'Orix',
@@ -16,17 +16,17 @@ export const metadata: Metadata = {
 
 export default function Home() {
     return (
-        <MotionConfig reducedMotion="user">
-            <main>
-                <Hero />
-                <QueEs />
-                <TimeLine />
-                <Platform />
-                <ModeloExito />
-                <Ganancias />
-                <Seguridad />
-                <SpeedInsights />
-            </main>
-        </MotionConfig>
+        <main>
+            <Hero />
+            <QueEs />
+            <TimeLine />
+            <Platform />
+            <ModeloExito />
+            <Ganancias />
+            <Seguridad />
+
+            <SpeedInsights />
+            <Analytics />
+        </main>
     );
 }

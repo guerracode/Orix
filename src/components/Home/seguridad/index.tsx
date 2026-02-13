@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Seguridad = () => {
     return (
-        <section className="pb-28 relative" id='seguridad'>
+        <section className="pb-28 relative" id="seguridad">
             <div className="container px-4 relative z-2">
                 <div className="text-center">
                     <p className="text-muted sm:text-28 text-18 mb-4 pb-6 relative after:content-[''] after:w-8 after:h-0.5 after:bg-primary after:absolute after:bottom-0 after:left-1/2">
@@ -34,31 +34,6 @@ const Seguridad = () => {
                         <div className="text-center flex items-center justify-between flex-col">
                             <div className="bg-white backdrop-blur-xs p-4 rounded-full w-fit">
                                 <Image
-                                    src="https://orix-bot.s3.us-east-2.amazonaws.com/StartraderLogo.png"
-                                    alt="Startrader Logo"
-                                    width={150}
-                                    height={150}
-                                    loading="lazy"
-                                />
-                            </div>
-                            <p className="text-white text-16 pt-4 ">
-                                Startrader es un bróker global de alto
-                                crecimiento que ofrece tecnología avanzada y
-                                soluciones de inversión seguras bajo múltiples
-                                regulaciones internacionales.
-                            </p>
-                            <div className="mt-8 justify-center">
-                                <Link
-                                    href="#"
-                                    className="text-darkmode bg-primary border border-primary py-3 px-5 rounded-lg text-16 font-medium hover:bg-transparent hover:text-primary"
-                                >
-                                    Más Información
-                                </Link>
-                            </div>
-                        </div>
-                        <div className="text-center flex items-center justify-between flex-col">
-                            <div className="bg-white backdrop-blur-xs p-4 rounded-full w-fit">
-                                <Image
                                     src="https://orix-bot.s3.us-east-2.amazonaws.com/VantageLogo.jpg"
                                     alt="Vantage Logo"
                                     width={150}
@@ -72,6 +47,31 @@ const Seguridad = () => {
                                 éxito de sus clientes a través de soluciones
                                 integrales de trading y una sólida
                                 infraestructura de inversión.
+                            </p>
+                            <div className="mt-8 justify-center">
+                                <Link
+                                    href="/brokers/vantage-markets"
+                                    className="text-darkmode bg-primary border border-primary py-3 px-5 rounded-lg text-16 font-medium hover:bg-transparent hover:text-primary"
+                                >
+                                    Más Información
+                                </Link>
+                            </div>
+                        </div>
+                        <div className="text-center flex items-center justify-between flex-col">
+                            <div className="bg-white backdrop-blur-xs p-4 rounded-full w-fit">
+                                <Image
+                                    src="https://orix-bot.s3.us-east-2.amazonaws.com/StartraderLogo.png"
+                                    alt="Startrader Logo"
+                                    width={150}
+                                    height={150}
+                                    loading="lazy"
+                                />
+                            </div>
+                            <p className="text-white text-16 pt-4 ">
+                                Startrader es un bróker global de alto
+                                crecimiento que ofrece tecnología avanzada y
+                                soluciones de inversión seguras bajo múltiples
+                                regulaciones internacionales.
                             </p>
                             <div className="mt-8 justify-center">
                                 <Link
